@@ -1,0 +1,28 @@
+<!-- {% extends 'base.html' %} -->
+<!--  -->
+<!-- {% block title %} -->
+<!-- Vicente Gamez -->
+<!-- {% endblock %} -->
+<!--  -->
+<!-- {% block content %} -->
+<!-- <div class="hero white-bg"> -->
+    <!-- <div class="hero-content"> -->
+        <!-- <div class="left"> -->
+            <!-- <h1><em>Vicente Gámez</em></h1> -->
+            <!-- <h2><em>Computer Scientist</em></h2> -->
+            <!-- <p> -->
+                <!-- Holaaaa! 👋 Bienvenido a mi portafolio web. <br> -->
+                <!-- Aprecio mucho que estes aquí, ya que para mí es un honor poder mostrarte esta aplicación que trato de innovar cada día. 🧑‍💻<br> -->
+                <!-- Por eso invito a que revises la sección <a class="orange" href="#about">sobre mí</a> para poder contarte de las tecnologías y lenguajes que domino, además de mostrarte algunos de mis proyectos. 😉 -->
+            <!-- </p> -->
+            <!-- <a href="#contacto" class="btn">Contáctame</a> -->
+        <!-- </div> -->
+        <!-- <div class="right"> -->
+            <!-- <img src="{{ url_for('static', filename='big-data.png') }}" alt="" width="600px"> -->
+        <!-- </div> -->
+    <!-- </div> -->
+<!-- </div> -->
+<!-- {% include 'portfolio/section-first.html' %} -->
+<!-- {% include 'portfolio/section-second.html' %} -->
+<!-- {% include 'portfolio/section-third.html' %} -->
+<!-- {% endblock %} -->
