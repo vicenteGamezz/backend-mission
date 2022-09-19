@@ -1,13 +1,16 @@
-from flask import Flask, render_template
+from curses import flash
+from flask import Flask
+import os
 
-app = Flask(__name__)
+def create_app():
+    app = Flask(__name__)
 
+    app.config.from_mapping(
+        SENDGRID_KEY=os.environ.get('SENDGRID_KEY'),
+    )
 
-@app.route("/")
-def index():
-    return render_template("portfolio/index.html")
+    from . import portfolio
 
+    app.register_blueprint(portfolio.bp)
 
-
-if __name__ == '__main__':
-    app.run(host="0.0.0.0")
+    return app
