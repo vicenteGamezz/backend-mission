@@ -1,4 +1,3 @@
-from curses import flash
 from flask import Flask
 import os
 
